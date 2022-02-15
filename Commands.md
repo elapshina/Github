@@ -19,8 +19,8 @@
 12. Выйти из папки на уовень выше - cd ..
 13. Переместить любые 2 файла, которые вы создали, в любую другую папку - mv foldername1/{filename1.txt,filename2.txt} foldername1/foldername4
 14. Скопировать любые 2 файла, которые вы создали, в любую другую папку - cp foldername1/{filename3.txt,filename4.json} foldername1/foldername5
-16. Посмотреть содержимое в реальном времени (команда grep) - tail -f filename1.txt 
- -  Поиск конкретного значения при мониторинге файла - tail -f filename1.txt | grep
+15. Посмотреть содержимое в реальном времени (команда grep) - tail -f filename1.txt 
+16. Поиск конкретного значения при мониторинге файла - tail -f filename1.txt | grep
 17. Вывести несколько первых строк из текстового файла - head -2 filename1.txt
 18. Вывести несколько последних строк из текстового файла - tail -2 filename1.txt
 19. Посмотреть содержимое длинного файла - less filename1.txt
@@ -37,7 +37,7 @@ curl "http://162.55.220.72:5005/terminal-hw-request"
 
 {"Intro":"Hello!! This is your the first response from server","Tasks":{"Task_1":"Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}
 
-*Task 1*
+ *Task 1*
 
 curl "http://162.55.220.72:5005/get_method?name="ekaterina"&age=32"
 
